@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hariharan R | Presales & Business Consultant</title>
+  <meta name="description"
+    content="Hariharan R — Presales & Business Consultant working with Zoho. The story behind the profile: from electronics to Freshworks STS Software Academy to Spikra." />
+
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) { }
+      if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Intro loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-panel top"></div>
+    <div class="loader-panel bottom"></div>
+    <div class="loader-center">
+      <div class="loader-count"><span id="loaderCount">0</span><small>%</small></div>
+      <div class="loader-name" aria-label="Hariharan R"><span>H</span><span>a</span><span>r</span><span>i</span><span>h</span><span>a</span><span>r</span><span>a</span><span>n</span><span>&nbsp;</span><span>R</span></div>
+      <div class="loader-role">Presales &amp; Business Consultant</div>
+      <div class="loader-line"><span id="loaderLine"></span></div>
+    </div>
+  </div>
+
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true"><i></i><i></i></div>
+  <div class="cursor-aura" id="cursorAura" aria-hidden="true"></div>
+  <div class="cursor-label" id="cursorLabel" aria-hidden="true">View story</div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Hariharan R — home">
+        <span class="logo-mark"><b>H</b><b>R</b></span>
+        <span class="logo-text"><b>Hariharan R</b><small>Presales &amp; Business Consultant</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#journey" class="nav-item">Journey</a>
+        <a href="#memories" class="nav-item">Memories</a>
+        <a href="#presales" class="nav-item">My Role</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light / dark theme" title="Switch theme">
+          <i class="fas fa-sun"></i><i class="fas fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-gold btn-sm"><span>Let's Talk</span></a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- ================= HOME ================= -->
+    <section id="home">
+      <div class="home-content">
+        <div class="eyebrow-left reveal"><i></i> Presales &amp; Business Consultant</div>
+        <h1 class="home-title reveal" style="--d:.1s">Hariharan R</h1>
+        <p class="hero-para reveal" style="--d:.16s">
+          In presales, I think about the <b>customer first</b>. I learn how their business works, see where it can
+          grow, and choose the <b>right Zoho solution</b> for it. Then I show a <b>working demo</b>, so they see the
+          value before they decide.
+        </p>
+        <div class="home-actions reveal" style="--d:.3s">
+          <a href="#journey" class="btn btn-solid"><span>Read the Full Story</span> <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-ghost"><span>Let's Talk</span></a>
+        </div>
+      </div>
+
+      <div class="home-visual reveal" style="--d:.2s">
+        <div class="portrait">
+          <span class="portrait-frame"></span>
+          <img src="./assets/Profile image-portfolio.jpeg" alt="Hariharan R" />
+          <div class="portrait-card">
+            <span class="pc-dot"></span>
+            <div><b>Hariharan R</b><small>Presales &amp; Business Consultant</small></div>
+          </div>
+        </div>
+      </div>
+      <a href="#journey" class="scroll-hint" aria-label="Scroll down"><small>Scroll</small><span class="sh-line"></span><i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section id="journey">
+      <div class="head">
+        <span class="eyebrow reveal">My Journey</span>
+        <h2 class="section-title reveal">How I Got Here</h2>
+        <p class="section-sub reveal">Six steps — from electronics to client demos.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline-line"><span id="timelineFill"></span></div>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot"><i class="fas fa-microchip"></i></div>
+          <div class="tl-card has-img">
+            <div class="tl-text">
+              <span class="tl-tag">Step 1 · The Beginning</span>
+              <h3>Starting with Electronics</h3>
+              <p>I am from Chennai. I did my Diploma in Electronics and Communication Engineering at Central Polytechnic College, Tharamani. This is where my interest in technology began.</p>
+            </div>
+            <figure class="tl-photo">
+              <img src="./assets/CPT-Image.jpeg" alt="Central Polytechnic College" />
+              <figcaption>Central Polytechnic College</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot"><i class="fas fa-cloud"></i></div>
+          <div class="tl-card has-img">
+            <div class="tl-text">
+              <span class="tl-tag">Step 2 · Learn &amp; Earn</span>
+              <h3>Working to pay for my learning</h3>
+              <p>I did internships in college and became interested in cloud computing. To pay for my learning, I worked as a Zomato delivery partner for over a year and did part-time jobs. I used my savings to finish my AWS DevOps course.</p>
+            </div>
+            <figure class="tl-photo">
+              <img src="./assets/AWS_certificate.png" alt="AWS and DevOps certificate" class="contain" />
+              <figcaption>AWS &amp; DevOps · 2025</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot"><i class="fas fa-mountain"></i></div>
+          <div class="tl-card">
+            <div class="tl-text">
+              <span class="tl-tag">Step 3 · The Hard Part</span>
+              <h3>20+ rejections, but I kept going</h3>
+              <p>I applied for many jobs and was rejected by more than 20 companies. It was hard, but I did not give up.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="tl-card has-img wide-img">
+            <div class="tl-text">
+              <span class="tl-tag">Step 4 · The Turning Point</span>
+              <h3>Freshworks STS Software Academy</h3>
+              <p>I heard about Freshworks STS Software Academy and prepared hard. I passed the exam and the interview, and I was selected from more than 2,000 students. There I stayed curious, built technical skills and worked on real projects. I completed the program and received my certificate.</p>
+              <a href="#memories" class="text-link">See my academy memories <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <figure class="tl-photo">
+              <img src="./assets/academy-graduation.jpg" alt="Receiving my certificate at Freshworks STS Software Academy" />
+              <figcaption>Graduation day</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot"><i class="fas fa-handshake-angle"></i></div>
+          <div class="tl-card">
+            <div class="tl-text">
+              <span class="tl-tag">Step 5 · A New Chapter</span>
+              <h3>Joined Spikra as a Product Consultant</h3>
+              <p>I joined Spikra and attended the training program as a Product Consultant. I learned the Zoho products and business strategies.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="tl-item reveal now">
+          <div class="tl-dot"><i class="fas fa-route"></i></div>
+          <div class="tl-card">
+            <div class="tl-text">
+              <span class="tl-tag gold">Step 6 · Today</span>
+              <h3>Moved into Presales</h3>
+              <p>After the training, I moved into Presales. Now I understand client requirements, challenges and pain points, prepare a POC with the Zoho products they need, and demonstrate it.</p>
+              <a href="#presales" class="btn btn-solid btn-sm"><span>See my role today</span> <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= MEMORIES ================= -->
+    <section id="memories">
+      <div class="head">
+        <span class="eyebrow reveal">Academy Memories</span>
+        <h2 class="section-title reveal">Moments I'll Always Remember</h2>
+        <p class="section-sub reveal">Team projects from my academy days. Click a photo to read the story.</p>
+      </div>
+
+      <div class="memory-grid">
+        <button class="memory reveal" data-title="Squad Power Presentation" data-tag="Training Milestone"
+          data-text="We did Squad Power Presentation on First Month, through this. It Helped me to overcome from stage fear and Improved my Presentation Skills and express ideas clearly while presenting and working in a team."
+          data-link="https://www.canva.com/design/DAGt3V7Hq6E/Pk1CgqBmWkk4GZug6QSpIw/edit">
+          <img src="./assets/Squad_power_img.png" alt="Squad Power" />
+          <span class="m-tag">Training Milestone</span>
+          <span class="m-title">Squad Power Presentation</span>
+        </button>
+        <button class="memory reveal" style="--d:.08s" data-title="Comfort Cradle PR Belt" data-tag="Innovation Lab"
+          data-text="We Designed to help women suffering from period pain and we successfully completed and presented. It is a team project, through this I gained Problem Solving, Communication skills, Teamwork."
+          data-link="https://willowy-semifreddo-0dee1e.netlify.app/">
+          <img src="./assets/Iconic_squad-img.jpeg" alt="Iconic Squad" />
+          <span class="m-tag">Innovation Lab</span>
+          <span class="m-title">Comfort Cradle PR Belt</span>
+        </button>
+        <button class="memory reveal" style="--d:.16s" data-title="Iconic Five Research" data-tag="Team Excellence"
+          data-text="As a part of &quot;Iconic-5&quot; squad and we Secured 2nd Prize researching roles in the IT industry through LinkedIn and analyzing professional roles. This experience strengthened my teamwork, communication, research skills and understanding how a technology is applied in real-world organizations"
+          data-link="https://gamma.app/docs/Product-Based-Company-The-Rubiks-Cube-7zqwivnxzkrbwm2">
+          <img src="./assets/Workplace-study-org.jpg" alt="Workplace Study" />
+          <span class="m-tag">Team Excellence</span>
+          <span class="m-title">Iconic Five Research</span>
+        </button>
+        <button class="memory reveal" data-title="Elite Appliances" data-tag="Static Website"
+          data-text="A Appliances Static Website. In this project, I improved my HTML and CSS skills and deployed on GitHub."
+          data-link="https://haridevops-1.github.io/Elite_Appliances_static_website/" data-cta="View Live">
+          <img src="./assets/Elite_image.png" alt="Elite Appliances" />
+          <span class="m-tag">Static Website</span>
+          <span class="m-title">Elite Appliances</span>
+        </button>
+        <button class="memory reveal" style="--d:.08s" data-title="Bridge Of Hope" data-tag="Full Stack"
+          data-text="A platform connecting food donors to trusts to reduce waste. Through this I learnt HTMl, CSS, Javascript, Python,FastApi, postgresql and how to connect it to the frontend."
+          data-link="https://bridge-of-hope-frontend.vercel.app" data-cta="View Live">
+          <img src="./assets/BOH_final_image.png" alt="Bridge of Hope" />
+          <span class="m-tag">Full Stack</span>
+          <span class="m-title">Bridge Of Hope</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= MY ROLE ================= -->
+    <section id="presales">
+      <div class="head">
+        <span class="eyebrow reveal">My Role Today</span>
+        <h2 class="section-title reveal">Presales &amp; Business Consultant</h2>
+        <p class="section-sub reveal">My journey at Spikra, and a closer look at the work I do for clients.</p>
+      </div>
+
+      <!-- Career path -->
+      <div class="path reveal">
+        <div class="path-step">
+          <span class="path-dot"><i class="fas fa-id-badge"></i></span>
+          <b>Joined Spikra</b>
+          <small>as Product Consultant</small>
+        </div>
+        <div class="path-link"><span></span></div>
+        <div class="path-step">
+          <span class="path-dot"><i class="fas fa-chalkboard-user"></i></span>
+          <b>Training Program</b>
+          <small>Zoho products &amp; business strategies</small>
+        </div>
+        <div class="path-link"><span></span></div>
+        <div class="path-step now">
+          <span class="path-dot"><i class="fas fa-arrow-trend-up"></i></span>
+          <b>Presales</b>
+          <small>My role today · still growing</small>
+        </div>
+      </div>
+
+      <!-- Presales explained -->
+      <div class="explain reveal">
+        <span class="ex-tag"><i class="fas fa-circle-info"></i> Presales, in simple words</span>
+        <p>
+          Presales is the work done <b>before a client buys</b>. I am the bridge between the client&rsquo;s business and
+          the Zoho solution. I learn what the business needs, build a <b>working proof</b>, and show it live &mdash; so
+          the client can decide with confidence.
+        </p>
+      </div>
+
+      <h3 class="sub-title reveal">My work, step by step</h3>
+      <div class="work">
+        <article class="work-card reveal">
+          <span class="wk-num">01</span>
+          <span class="wk-ico"><i class="fas fa-phone-volume"></i></span>
+          <h4>Discovery calls</h4>
+          <p>I talk to the client to understand their business, goals, requirements and pain points.</p>
+        </article>
+        <article class="work-card reveal" style="--d:.1s">
+          <span class="wk-num">02</span>
+          <span class="wk-ico"><i class="fas fa-puzzle-piece"></i></span>
+          <h4>Solution mapping</h4>
+          <p>I match their needs with the right Zoho products.</p>
+        </article>
+        <article class="work-card reveal" style="--d:.2s">
+          <span class="wk-num">03</span>
+          <span class="wk-ico"><i class="fas fa-flask"></i></span>
+          <h4>Proof of Concept</h4>
+          <p>I build a working POC based on their requirements, using different Zoho products.</p>
+        </article>
+        <article class="work-card reveal" style="--d:.3s">
+          <span class="wk-num">04</span>
+          <span class="wk-ico"><i class="fas fa-display"></i></span>
+          <h4>Live demo</h4>
+          <p>I demonstrate the POC and show how it solves their problem.</p>
+        </article>
+        <article class="work-card reveal" style="--d:.4s">
+          <span class="wk-num">05</span>
+          <span class="wk-ico"><i class="fas fa-people-arrows"></i></span>
+          <h4>Handover</h4>
+          <p>I share the details with my team for the next steps.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills">
+      <div class="head">
+        <span class="eyebrow reveal">Skills</span>
+        <h2 class="section-title reveal">What I Know</h2>
+        <p class="section-sub reveal">Choose a category to see what I work with.</p>
+      </div>
+
+      <div class="skills-wrap reveal">
+        <div class="tabs" id="tabs" role="tablist">
+          <span class="tab-glider" id="tabGlider"></span>
+          <button class="tab active" data-p="tech" role="tab"><i class="fas fa-code"></i> Technical</button>
+          <button class="tab" data-p="zoho" role="tab"><i class="fas fa-layer-group"></i> Zoho Products</button>
+          <button class="tab" data-p="tools" role="tab"><i class="fas fa-screwdriver-wrench"></i> Tools</button>
+        </div>
+
+        <div class="panel active" data-p="tech">
+          <div class="panel-head"><h4>Technologies I use</h4><span class="count"><b data-to="8">8</b> skills</span></div>
+          <div class="tile" style="--i:0"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" /></span><b>HTML</b></div>
+          <div class="tile" style="--i:1"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" /></span><b>CSS</b></div>
+          <div class="tile" style="--i:2"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" /></span><b>JavaScript</b></div>
+          <div class="tile" style="--i:3"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" /></span><b>Python</b></div>
+          <div class="tile" style="--i:4"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" /></span><b>MongoDB</b></div>
+          <div class="tile" style="--i:5"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="" class="icon-invert" /></span><b>Express.js</b></div>
+          <div class="tile" style="--i:6"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" /></span><b>React.js</b></div>
+          <div class="tile" style="--i:7"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" /></span><b>Node.js</b></div>
+        </div>
+
+        <div class="panel" data-p="zoho">
+          <div class="panel-head"><h4>Zoho products I work with</h4><span class="count"><b data-to="8">8</b> products</span></div>
+          <div class="tile zoho" style="--i:0"><span class="plate"><img src="./assets/zoho/crm.svg" alt="Zoho CRM" /></span></div>
+          <div class="tile zoho" style="--i:1"><span class="plate"><img src="./assets/zoho/desk.svg" alt="Zoho Desk" /></span></div>
+          <div class="tile zoho" style="--i:2"><span class="plate"><img src="./assets/zoho/books.svg" alt="Zoho Books" /></span></div>
+          <div class="tile zoho" style="--i:3"><span class="plate"><img src="./assets/zoho/people.svg" alt="Zoho People" /></span></div>
+          <div class="tile zoho" style="--i:4"><span class="plate"><img src="./assets/zoho/creator.svg" alt="Zoho Creator" /></span></div>
+          <div class="tile zoho" style="--i:5"><span class="plate"><img src="./assets/zoho/flow.svg" alt="Zoho Flow" /></span></div>
+          <div class="tile zoho" style="--i:6"><span class="plate"><img src="./assets/zoho/analytics.svg" alt="Zoho Analytics" /></span></div>
+          <div class="tile zoho" style="--i:7"><span class="plate"><img src="./assets/zoho/projects.svg" alt="Zoho Projects" /></span></div>
+        </div>
+
+        <div class="panel" data-p="tools">
+          <div class="panel-head"><h4>Tools I use</h4><span class="count"><b data-to="4">4</b> tools</span></div>
+          <div class="tile" style="--i:0"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="" class="icon-invert" /></span><b>GitHub</b></div>
+          <div class="tile" style="--i:1"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" /></span><b>VS Code</b></div>
+          <div class="tile" style="--i:2"><span class="t-ico"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="" /></span><b>Figma</b></div>
+          <div class="tile" style="--i:3"><span class="t-ico"><img src="https://www.wix.com/favicon.ico" alt="" /></span><b>Wix</b></div>
+        </div>
+      </div>
+
+      <div class="marquee reveal" aria-hidden="true"><div class="marquee-track" id="marqueeTrack"></div></div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact">
+      <div class="head">
+        <span class="eyebrow reveal">Contact</span>
+        <h2 class="section-title reveal">Let's Talk</h2>
+        <p class="section-sub reveal">Want to know more about my journey, or see how Zoho One can help your business? Get in touch.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="mailto:hariharar0803@gmail.com" class="contact-card reveal">
+          <span class="c-icon"><i class="fas fa-envelope"></i></span>
+          <span class="c-text"><small>EMAIL</small><b>hariharar0803@gmail.com</b></span>
+          <i class="fas fa-arrow-up-right-from-square c-go"></i>
+        </a>
+        <a href="tel:9360923188" class="contact-card reveal" style="--d:.08s">
+          <span class="c-icon"><i class="fas fa-phone"></i></span>
+          <span class="c-text"><small>PHONE</small><b>+91 9360923188</b></span>
+          <i class="fas fa-arrow-up-right-from-square c-go"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hariharanr-lnx/" target="_blank" class="contact-card reveal" style="--d:.16s">
+          <span class="c-icon"><i class="fab fa-linkedin-in"></i></span>
+          <span class="c-text"><small>LINKEDIN</small><b>LinkedIn Profile</b></span>
+          <i class="fas fa-arrow-up-right-from-square c-go"></i>
+        </a>
+        <a href="https://github.com/" target="_blank" class="contact-card reveal" style="--d:.24s">
+          <span class="c-icon"><i class="fab fa-github"></i></span>
+          <span class="c-text"><small>GITHUB</small><b>Github Profile</b></span>
+          <i class="fas fa-arrow-up-right-from-square c-go"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="f-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark"><b>H</b><b>R</b></span>
+          <span class="logo-text"><b>Hariharan R</b><small>Presales &amp; Business Consultant</small></span>
+        </a>
+        <p>Understanding needs. Preparing POCs. Demonstrating with Zoho One.</p>
+      </div>
+      <div class="f-col">
+        <h5>Explore</h5>
+        <a href="#journey">My Journey</a>
+        <a href="#memories">Academy Memories</a>
+        <a href="#presales">My Role Today</a>
+        <a href="#skills">Skills</a>
+      </div>
+      <div class="f-col">
+        <h5>Connect</h5>
+        <a href="mailto:hariharar0803@gmail.com"><i class="fas fa-envelope"></i> hariharar0803@gmail.com</a>
+        <a href="tel:9360923188"><i class="fas fa-phone"></i> +91 9360923188</a>
+        <div class="f-social">
+          <a href="https://www.linkedin.com/in/hariharanr-lnx/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:hariharar0803@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>© <span id="year"></span> Hariharan R. All rights reserved.</span>
+      <button id="toTop" class="footer-top">Back to top <i class="fas fa-arrow-up"></i></button>
+    </div>
+  </footer>
+
+  <!-- Memory lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lb-backdrop" data-close></div>
+    <div class="lb-card" role="dialog" aria-modal="true" aria-labelledby="lbTitle">
+      <button class="lb-close" data-close aria-label="Close"><i class="fas fa-xmark"></i></button>
+      <img id="lbImg" alt="" />
+      <div class="lb-body">
+        <span class="tl-tag" id="lbTag"></span>
+        <h3 id="lbTitle"></h3>
+        <p id="lbText"></p>
+        <a id="lbLink" class="btn btn-solid btn-sm" target="_blank" rel="noopener"><span id="lbCta">View Details</span> <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
